@@ -190,7 +190,7 @@ img {
   margin: 15px;
 }
 .img-fluid{
-  margin-top: 30%;
+  margin-top: -30%;
 }
 
 .click {
@@ -338,6 +338,7 @@ img {
   }
 
   .info h4 {
+  
     text-align: center;
     color: #6a6a6a;
     font-size: 30px;
