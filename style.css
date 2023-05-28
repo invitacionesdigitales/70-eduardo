@@ -180,13 +180,17 @@ img {
 }
 
 .info img {
-  width: 28%;
+  margin-top: 5%;
+  width: 25%;
   margin-left: 40%;
 
 }
 
 .parrafo {
   margin: 15px;
+}
+.img-fluid{
+  margin-top: 30%;
 }
 
 .click {
@@ -349,11 +353,7 @@ img {
 
   }
 
-  .info img {
-    width: 10%;
-    margin-left: 40%;
-
-  }
+  
 
   .parrafo {
     margin: 15px;
@@ -373,7 +373,19 @@ img {
     margin-left: 44%;
   }
 
-
+  .tecla {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #fcfcfc;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+  }
 
   @media (min-width: 1024px){ 
   
@@ -386,7 +398,7 @@ img {
       height: 60px;
       line-height: 60px;
       text-align: center;
-      background: #855995;
+      background: #fcfcfc;
       color: #f1f1f1;
       border-radius: 50%;
       box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
