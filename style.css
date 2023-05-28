@@ -241,7 +241,9 @@ img {
     text-decoration: none;
     color: #9c9b9b;
   }
-
+.info h4{
+  margin-top: 10%;
+}
 }
 
 @media (min-width: 1024px) {
@@ -332,13 +334,9 @@ img {
     color: rgb(251, 238, 171);
   }
 
-  .info {
-    margin-top: 5%;
-
-  }
 
   .info h4 {
-  
+
     text-align: center;
     color: #6a6a6a;
     font-size: 30px;
