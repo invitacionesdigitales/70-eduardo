@@ -129,7 +129,9 @@ img {
     font-size: 18px;
     font-family: 'Patrick Hand', cursive;
   }
-
+  .img-fluid{
+    margin-top: 10%;
+  }
   .preparate {
     text-align: center;
     position: relative;
@@ -178,7 +180,7 @@ img {
 }
 
 .info img {
-  width: 15%;
+  width: 28%;
   margin-left: 40%;
 
 }
@@ -192,12 +194,18 @@ img {
   font-size: 19px;
   font-weight: 1200;
   border: none;
-  color: rgb(255, 255, 255);
+  color: rgb(238, 251, 254);
   background-color: #4a517697;
   border-radius: 4px;
-  box-shadow: 1px 1px 30px -5px rgb(228, 207, 248);
+  box-shadow: 1px 1px 30px -5px rgb(252, 251, 253);
   cursor: pointer;
   margin-left: 34%;
+}
+
+.copas{
+  width: 20%;
+  margin-top: -20%;
+  margin-left: 42%;
 }
 
 
@@ -367,23 +375,45 @@ img {
 
 
 
-  .box__copyright {
-    max-width: 1200px;
-    padding: 0px 40px;
-    text-align: center;
-  }
+  @media (min-width: 1024px){ 
+  
+  
 
-  .box__copyright p {
-    margin-top: 20px;
-    color: #9c9b9b;
-    font-size: 10px;
-    text-align: center;
-  }
-
-  .box__copyright a {
-    text-decoration: none;
-    color: #9c9b9b;
-  }
+    .tecla {
+      text-decoration: none;
+      font-size: 28px;
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      text-align: center;
+      background: #855995;
+      color: #f1f1f1;
+      border-radius: 50%;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+      transition: all .4s ease-in-out;
+    }
+    
+    .box__copyright {
+      max-width: 1200px;
+      padding: 0px 40px;
+      text-align: center;
+    }
+  
+    .box__copyright p {
+      margin-top: 20px;
+      color: #9c9b9b;
+      font-size: 10px;
+      text-align: center;
+    }
+  
+    .box__copyright a {
+      text-decoration: none;
+      color: #9c9b9b;
+    }
+    
+     }
+     
+    
 
   .espero {
     text-align: center;
